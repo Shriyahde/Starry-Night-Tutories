@@ -1,0 +1,25 @@
+h1 {
+    color: blue;
+    background-color:blanchedalmond;
+    font-family:cursive;
+}
+
+.header-link {
+    font-family: cursive;
+    color:aquamarine;
+    font-size: larger;
+}
+
+body {
+    background-color:rgb(161, 94, 220);
+}
+
+p {
+    color:white;
+    font-size:larger;
+}
+
+.lists-h3 {
+    color:white;
+    font-size:larger;
+}
