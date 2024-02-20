@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Tell Me signup page</title>
+        <link rel="stylesheet" type="text/css" href="styles/header.css">
     </head>
     <body>
         <h1>Tell Me!</h1>
@@ -14,19 +15,14 @@
         <input id="password" type="password">
         <button id="button">Submit!</button>
         <script>
-            //this says that this is a password and that it must be hidden when written//
             const password= document.getElementById("password");
-            //this says to get the button submit//
             const button= document.getElementById("button");
-            //this says to get the header//
             const header= document.getElementById("header");
-            //this says to play the header if correct//
             button.addEventListener("click", function() {
                 if (password.value==="46h7ol9P") {
                     header.innerHTML="Click Here for your fully functional Starry Night Tutories!";
                 }
             });
         </script>
-        <link rel="stylesheet" type="text/css" href="styles/header.css">
     </body>
 </html>

@@ -1,0 +1,30 @@
+h1 {
+    color: blue;
+    background-color:blanchedalmond;
+    font-family:cursive;
+}
+
+.header-link {
+    font-family: cursive;
+    color:aquamarine;
+    font-size: larger;
+}
+
+
+
+p {
+    color:rgb(1, 1, 1);
+    font-size:larger;
+}
+
+.lists-h3 {
+    color:black;
+    font-size:larger;
+}
+
+#membership-link {
+    font-family: cursive;
+    color:aqua;
+    font-size:large;
+
+}
