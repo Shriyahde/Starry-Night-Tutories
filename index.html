@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <meta charset="UTF-8" />
-    <title>Teach Me!</title>
+        <title>Tell Me signup page</title>
     </head>
     <body>
-    <h1>Teach Me!</h1>
-    <p>Welcome to Teach Me! This website can help students in elementary school with backup resources. If you're struggling, 
-        this is just the place for you!
-    </p>
+        <h1>Tell Me!</h1>
+        <h3>Welcome to Tell Me! To continue in, please signup for a membership in Tell Me! Once you get an approval link,
+            please type it into the box below. To just browse for a limited amount of time, click on "guest". Thank you!
+        </h3>
+        <a href="https://forms.gle/b2FaXeaALZeb4LYM7" id="membership-link">Membership and Monthly Fees</a> <br>
+        <a href="index.html" class="header-link">Guest Browsing</a>
+        <a href="index1.html" id="header"></a>
+        <input id="password" type="password">
+        <button id="button">Submit!</button>
+        <script>
+            //this says that this is a password and that it must be hidden when written//
+            const password= document.getElementById("password");
+            //this says to get the button submit//
+            const button= document.getElementById("button");
+            //this says to get the header//
+            const header= document.getElementById("header");
+            //this says to play the header if correct//
+            button.addEventListener("click", function() {
+                if (password.value==="46h7ol9P") {
+                    header.innerHTML="Click Here for your fully functional Starry Night Tutories!";
+                }
+            });
+        </script>
+        <link rel="stylesheet" type="text/css" href="styles/header.css">
     </body>
 </html>
