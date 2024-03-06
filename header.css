@@ -16,10 +16,14 @@ body {
 
 p {
     color:white;
-    font-size:larger;
+    font-size:1em;
 }
 
 .lists-h3 {
     color:white;
     font-size:larger;
+}
+
+h3 {
+    font-size: 1.5em;
 }
