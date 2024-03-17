@@ -24,6 +24,10 @@ p {
     font-size:larger;
 }
 
-h3 {
+h2 {
     font-size: 1.5em;
+}
+
+#membership-link {
+    font-size: 1.3em;
 }
